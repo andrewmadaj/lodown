@@ -78,7 +78,7 @@ module.exports.typeOf = typeOf;
  * @param {array} array: Array to find first value(s) of.
  * @param {number} number: The first <number> of elements to return
  * @return {array or value(s)}: An empty array, an array with several numbers from 
- * the start of the array to specified number, or first index of array.
+ * the start of the array to specified number, or first element of array.
  */
 function first(array, number) {
     // if array !== array, return an empty [];
@@ -110,7 +110,7 @@ module.exports.first = first;
  * @param {array} array: Array to find last value(s) of.
  * @param {number} number: The last <number> of elements to return
  * @return {array or number}: An empty array, an array with several numbers from 
- * the end of the array to specified number back, or last index of array.
+ * the end of the array to specified number back, or last element of array.
  */
 function last(array, number) {
     if (!Array.isArray(array) || number < 0) {
